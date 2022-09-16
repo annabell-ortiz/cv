@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    background-color: rgb(159, 234, 255);
+    }
+h1.name {
+    font-family: "Ms Madi", sans-serif;
+    font-size: 60px;
+    color: rgb(153, 101, 221);
+}
+h2.occup {
+    font-family: "Prompt", serif;
+    font-size: 20px;
+    color: rgb(153, 101, 221);
+
+}
+img.headshot {
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 10%;
+    height: 10%;
+}
+
+img.cact1 {
+    position: absolute;
+    top: 225px;
+    left: 300px;
+}
+img.cact2 {
+    position: absolute;
+    top: 225px;
+    right: 300px;
+}
+
+hr.b1 {
+    border-style: groove;
+    background-color: rgb(159, 234, 255);
+}
+
+hr.b2 {
+    width: 70%;
+}
+
+hr.b3 {
+    width: 70%;
+}
+
+.top {
+    background-color: rgb(201, 237, 248);
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+    font-family: "Prompt", serif;
+    color: rgb(153, 101, 221);
+    }
+
+.middle {
+    background-color: rgb(159, 234, 255);
+    padding: 20px;
+    text-align: center;
+    font-family: "Prompt", serif;
+    color: rgb(153, 101, 221);
+}
+
+ul.list {
+    list-style: none;
+}  
+
+.languages {
+    column-count: 2;
+    column-gap: 2em;
+    column-width: 10px;
+    column-fill: balance;
+    
+}
+.experience {
+    column-count: 2;
+    column-fill: auto;
+}
+
+a.fast {
+    color:rgb(172, 1, 52);
+   text-decoration: none;
+}
+
+.skills {
+    column-count: 2;
+    column-fill: auto;
+}
+
+.bottom {
+    background-color: rgb(201, 237, 248);
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+}
+
+a.contact {
+    color:rgb(172, 1, 52);
+    text-decoration: none;
+    outline: auto;
+    outline-width: 3px;
+    padding: 8px 8px 8px 8px;
+}
+
+hr.b4 {
+    border-style: groove;
+}
+
+a:hover {
+    color: rgb(253, 176, 75);
+  }
+p.copyright {
+    text-align: center;
+}
+/*CSS FOR CONTACT.HTML*/
+h1.contactName {
+    font-family: "Ms Madi", sans-serif;
+    font-size: 60px;
+    color: rgb(153, 101, 221);
+    text-align: center;
+}
+
+.contactBody {
+ background-color: rgb(159, 234, 255);
+ text-align: center;
+ font-family: "Prompt", serif;
+ color: rgb(153, 101, 221);
+}
+
+hr.b5 {
+    width: 70%;
+}
+
+.form{
+    column-count: 2;
+    column-fill: balance;
+}
+
+.label{
+    float:left;
+}
